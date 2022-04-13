@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 62.5%;
+}
+
+h1 {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #242E52;
+    font-size: 1.3rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 165px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 28px;
+}
+
+header nav ul li button {
+    margin-left: 254.5px;
+    background: #F3603B;
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    transition: background-color .5s
+}
+
+header nav ul li button:hover {
+    background-color: rgb(4, 57, 74);
+}
+
+/*BUTON*/
+
+button {
+    background: #F3603B;
+    display: flex;
+    justify-content: center;
+    width: 134px;
+    border: none;
+    height: 44px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    line-height: 1.9rem;
+    padding: 10px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    transition: background-color .5s
+}
+
+button:hover {
+    background-color: rgb(4, 57, 74);
+}
+
+
+.TOP {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main section div h2 {
+    color: #232C50;
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 6.6rem;
+    letter-spacing: -0.035rem;
+    width: 470px;
+}
+
+main section div p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.65rem;
+    line-height: 2.6rem;
+    width: 350px;
+}
+
+.izquierda {
+    margin-left: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.midsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+main section.midsection h3 {
+    color: #232851;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.1rem;
+    width: 433px;
+    margin-top: 184px;
+}
+
+main section.midsection p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    width: 360px;
+}
+
+main section div.midsectionnote h5 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    color: #323851;
+}
+
+main section div.midsectionnote {
+    margin-top: 195px;
+}
+
+main section div.midsectionnote p {
+    font-weight: 500;
+    font-size: 1.63rem;
+    line-height: 2.6rem;
+    margin: 1.6rem;
+}
+
+.midsectionnote h5.uno::before {
+        background: #f3603b;
+        border-radius: 30px;
+        color: #ffffff;
+        content: "01";
+        font-size: 1.3rem;
+        margin-right: 20px;
+        padding: 10px 25px;
+}
+
+.midsectionnote h5.dos::before {
+    background: #f3603b;
+    border-radius: 30px;
+    color: #ffffff;
+    content: "02";
+    font-size: 1.3rem;
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+
+.midsectionnote h5.tres::before {
+    background: #f3603b;
+    border-radius: 30px;
+    color: #ffffff;
+    content: "03";
+    font-size: 1.3rem;
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+
+h4 {
+    font-size: 3.9rem;
+    line-height: 6.1rem;
+    font-weight: 700;
+    color: #242E53;
+    text-align: center;
+    margin-top: 132px;
+}
+
+section.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+section.cards div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+section.cards img {
+    width: 70px;
+    position: relative;  
+}
+
+section.cards article {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    align-items: center;
+    padding: 15px;
+}
+
+section.cards h5 {
+    color: #3F4868;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-top: 21px;
+}
+
+section.cards p {
+    color: #B9B9C1;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-top: 21px;
+    text-align: center;
+} 
+
+section.cards button {
+    display: flex;
+    align-self: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 224px;
+    background: #F3613C;
+}
+
+section.banner h3 {
+    font-weight: 700;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    color: #FFFFFF;
+    width: 460px;
+}
+
+section.banner button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    color: #F3603B;;
+}
+
+section.banner button:hover {
+    background-color: rgb(4, 57, 74);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #1E1E26;
+    padding: 35px;
+}
+
+footer div {
+    gap: 30px
+}
+
+footer nav {
+    display: flex;
+    gap: 150px;
+}
+
+footer nav ul {
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer nav ul li a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+}
+
+
+.fa-brands {
+    font-size: 20px;
+    color: #fafafa;
+    margin: 0 5px;
+}
+
+.empa {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.isola {
+    width: 63px;
+    height: 42px;
+    left: 209.91px;
+    top: 3.26px;
+    background: #F3603B;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    gap: 9px;
+}
+
+input {
+    width: 201px;
+    height: 44px;
+    left: -0.09px;
+    top: 2.26px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+span {
+    color: #8C8C94;
+    text-align: right;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
